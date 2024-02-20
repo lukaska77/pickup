@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="logo.png">
+	<link rel="stylesheet" type="text/css" href="styles-unit.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<title>Statistics</title>
+</head>
+<body>
+	<header>
+		<a href="index.html"><img class="nav-logo"src="logo.png"></a>
+		<h2 class="welcome">Statistics</h2>
+			<nav class="navigation">
+				<button class="btnLogin-popup">Sign In</button>
+			</nav>
+	</header>
+	<article>
+		<div id="timeContainer" class="time-container">
+			<div id="timeDisplay">00:00</div>
+			<button id="startBtn" class="timerBtn">Start</button>
+			<button id="pauseBtn" class="timerBtn">Pause</button>
+			<button id="restartBtn" class="timerBtn">Restart</button>
+		</div>
+
+		<div class="container">
+			<div id="question-container" class="hide">
+				<div id="question" class="question">Question</div>
+				<div id="answer-buttons" class="btn-grid">
+					<button class="btn">Answer 1</button>
+					<button class="btn">Answer 2</button>
+					<button class="btn">Answer 3</button>
+					<button class="btn">Answer 4</button>
+				</div>
+			</div>
+			<div class="controls">
+				<button id="start-btn" class="start-btn btn">Start</button>
+				<button id="next-btn" class="next-btn btn hide">Next</button>
+			</div>
+		</div>
+	</article>
+	<script type="text/javascript" src="unit1.js"></script>
+</body>
+</html>
